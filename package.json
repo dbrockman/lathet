@@ -1,0 +1,33 @@
+{
+  "name": "lathet",
+  "version": "0.0.0",
+  "description": "",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "NODE_ENV=test mocha",
+    "test-cov": "NODE_ENV=test istanbul cover _mocha",
+    "lint": "eslint --cache .",
+    "build": "rm -rf lib && babel src --out-dir lib",
+    "prepublish": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dbrockman/lathet.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dbrockman/lathet/issues"
+  },
+  "homepage": "https://github.com/dbrockman/lathet#readme",
+  "devDependencies": {
+    "@springworks/test-harness": "1.2.2",
+    "babel": "5.8.23",
+    "babel-eslint": "4.1.3",
+    "eslint": "1.7.3",
+    "eslint-config-springworks": "3.2.0",
+    "eslint-plugin-mocha": "1.0.0",
+    "istanbul": "0.4.0",
+    "mocha": "2.3.3"
+  }
+}

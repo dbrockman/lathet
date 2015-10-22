@@ -1,0 +1,32 @@
+# OS X Finder
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+coverage
+node_modules
+.idea
+.eslintcache
+
+# Do not publish src, only build output
+src
+test
+.eslintrc
+.eslintignore
+.travis.yml
