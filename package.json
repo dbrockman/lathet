@@ -1,20 +1,21 @@
 {
   "name": "lathet",
-  "version": "1.0.0",
-  "description": "",
+  "description": "Create lazy functions that can depend on other lazy functions",
   "main": "lib/index.js",
   "scripts": {
     "test": "NODE_ENV=test mocha",
     "test-cov": "NODE_ENV=test istanbul cover _mocha",
     "lint": "eslint --cache .",
     "build": "rm -rf lib && babel src --out-dir lib",
-    "prepublish": "npm run build"
+    "commit": "git-cz",
+    "prepublish": "npm run build",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dbrockman/lathet.git"
+    "url": "https://github.com/dbrockman/lathet.git"
   },
-  "author": "",
+  "author": "David Brockman Smoliansky",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/dbrockman/lathet/issues"
@@ -24,10 +25,18 @@
     "@springworks/test-harness": "1.2.2",
     "babel": "5.8.23",
     "babel-eslint": "4.1.3",
+    "commitizen": "2.3.0",
+    "cz-conventional-changelog": "1.1.4",
     "eslint": "1.7.3",
     "eslint-config-springworks": "3.2.0",
     "eslint-plugin-mocha": "1.0.0",
     "istanbul": "0.4.0",
-    "mocha": "2.3.3"
+    "mocha": "2.3.3",
+    "semantic-release": "^4.3.5"
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-conventional-changelog"
+    }
   }
 }
