@@ -132,9 +132,8 @@ describe('createLazyTask', () => {
 
   describe('when the last argument is not a function', () => {
 
-    it('should reject the resulting promise', () => {
-      const task = createLazyTask();
-      return task().should.be.rejected();
+    it('should throw', () => {
+      createLazyTask.should.throw('last argument must be a function');
     });
 
   });
