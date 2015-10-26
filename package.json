@@ -30,13 +30,18 @@
     "eslint": "1.7.3",
     "eslint-config-springworks": "3.2.0",
     "eslint-plugin-mocha": "1.0.0",
+    "ghooks": "0.3.2",
     "istanbul": "0.4.0",
     "mocha": "2.3.3",
-    "semantic-release": "^4.3.5"
+    "semantic-release": "^4.3.5",
+    "validate-commit-msg": "1.0.0"
   },
   "config": {
     "commitizen": {
       "path": "node_modules/cz-conventional-changelog"
+    },
+    "ghooks": {
+      "commit-msg": "node_modules/validate-commit-msg/index.js"
     }
   }
 }
