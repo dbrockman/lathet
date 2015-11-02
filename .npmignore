@@ -27,6 +27,7 @@ node_modules
 # Do not publish src, only build output
 src
 test
+.babelrc
 .eslintrc
 .eslintignore
 .travis.yml
