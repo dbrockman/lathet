@@ -30,7 +30,7 @@
     "commitizen": "2.4.6",
     "cz-conventional-changelog": "1.1.4",
     "eslint": "1.10.2",
-    "eslint-config-springworks": "4.0.2",
+    "eslint-config-springworks": "5.0.0",
     "eslint-plugin-mocha": "1.1.0",
     "ghooks": "1.0.1",
     "istanbul": "0.4.1",
