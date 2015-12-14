@@ -31,7 +31,7 @@
     "cz-conventional-changelog": "1.1.5",
     "eslint": "1.10.3",
     "eslint-config-springworks": "5.0.0",
-    "eslint-plugin-import": "0.11.0",
+    "eslint-plugin-import": "0.12.0",
     "eslint-plugin-mocha": "1.1.0",
     "eslint-plugin-springworks": "1.1.1",
     "ghooks": "1.0.1",
