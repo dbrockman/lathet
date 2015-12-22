@@ -3,5 +3,8 @@
   "globals": {
     "should": false,
     "sinon": false
+  },
+  "rules": {
+    "springworks/top-describe-path": 0
   }
 }
