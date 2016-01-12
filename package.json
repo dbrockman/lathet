@@ -34,7 +34,7 @@
     "eslint-plugin-import": "0.12.1",
     "eslint-plugin-mocha": "1.1.0",
     "eslint-plugin-springworks": "1.1.1",
-    "ghooks": "1.0.1",
+    "ghooks": "1.0.3",
     "istanbul": "0.4.1",
     "mocha": "2.3.4",
     "semantic-release": "^4.3.5",
