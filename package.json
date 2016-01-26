@@ -36,7 +36,7 @@
     "eslint-plugin-springworks": "1.1.1",
     "ghooks": "1.0.3",
     "istanbul": "0.4.1",
-    "mocha": "2.3.4",
+    "mocha": "2.4.1",
     "semantic-release": "^4.3.5",
     "validate-commit-msg": "1.1.1"
   },
