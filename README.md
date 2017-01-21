@@ -1,5 +1,7 @@
 # lathet
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/dbrockman/lathet.svg)](https://greenkeeper.io/)
+
 Create lazy functions that can depend on other lazy functions
 
 ```js
